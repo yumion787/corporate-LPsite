@@ -1,0 +1,20 @@
+[
+  {
+    "owner": "さとう様",
+    "petImage": "/pet1.jpg",
+    "rating": 5,
+    "comment": "初めての利用でしたが、安心してお願いできました。"
+  },
+  {
+    "owner": "たなか様",
+    "petImage": "/pet2.jpg",
+    "rating": 4,
+    "comment": "急な依頼にも丁寧に対応していただき感謝です。"
+  },
+  {
+    "owner": "いとう様",
+    "petImage": "",
+    "rating": 5,
+    "comment": "ペットもすぐに懐いてくれて、またお願いしたいです。"
+  }
+] 
