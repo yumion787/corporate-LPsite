@@ -4,11 +4,7 @@ import { services } from "@/data/services";
 import type { Service } from "@/data/services";
 import Link from "next/link";
 
-interface Props {
-  params: { serviceId: string };
-}
-
-export default function ServiceDetailPage({ params }: Props) {
+export default function ServiceDetailPage({ params }: { params: { serviceId: string } }) {
   const service: Service | undefined = services.find(s => s.id === params.serviceId);
   if (!service) return notFound();
 
