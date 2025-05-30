@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -8,8 +9,8 @@ const Footer = () => {
         <a href="/contact" className="hover:underline">お問い合わせ</a>
       </nav>
       <div className="flex gap-4">
-        <a href="#"><img src="x-logo-white.png" alt="X" width={20} height={20} /></a>
-        <a href="#"><img src="instagram-logo.png" alt="Instagram" width={20} height={20} /></a>
+        <a href="#"><Image src="/x-logo-white.png" alt="X" width={20} height={20} /></a>
+        <a href="#"><Image src="/instagram-logo.png" alt="Instagram" width={20} height={20} /></a>
       </div>
       <div className="text-xs text-gray-400">&copy; 2024 ペットシッターサービス</div>
     </footer>

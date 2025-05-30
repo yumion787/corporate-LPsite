@@ -18,7 +18,7 @@ export default function ServiceDetailPage({ params }: Props) {
       <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl w-full border border-cream-dark">
         <div className="flex flex-col md:flex-row gap-6 items-center mb-6">
           <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-orange flex items-center justify-center bg-cream">
-            <Image src={service.image} alt={service.title} width={90} height={90} className="object-cover" />
+            <Image src={service.image} alt={service.title} width={105} height={105} className="object-cover" />
           </div>
           <div>
             <h1 className="text-2xl md:text-3xl font-bold mb-2">{service.title}</h1>

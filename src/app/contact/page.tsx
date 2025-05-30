@@ -69,7 +69,7 @@ export default function ContactPage() {
       setSubmitMessage("送信が完了しました。ありがとうございました！");
       reset();
       recaptchaRef.current?.reset();
-    } catch (_) {
+    } catch {
       setSubmitStatus("error");
       setSubmitMessage("送信に失敗しました。時間をおいて再度お試しください。");
     }

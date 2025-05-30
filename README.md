@@ -34,7 +34,7 @@ Google Analytics（アクセス解析）
 
 ## ページ構成
 /：トップページ（ヒーロー・CTA）
-/services/[slug]：サービス詳細（動的ルーティング）
+/services/[id]：サービス詳細（動的ルーティング）
 /contact：お問い合わせフォーム
 
 
