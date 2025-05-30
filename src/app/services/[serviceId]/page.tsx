@@ -4,8 +4,10 @@ import { services } from "@/data/services";
 import type { Service } from "@/data/services";
 import Link from "next/link";
 
-export default function ServiceDetailPage({ params }: { params: { serviceId: string } }) {
-  const service: Service | undefined = services.find(s => s.id === params.serviceId);
+// export default function ServiceDetailPage({ params }: { params: { serviceId: string } }) {
+export default function ServiceDetailPage(props) {
+  const { serviceId } = props.params as { serviceId: string };
+  const service: Service | undefined = services.find(s => s.id === serviceId);
   if (!service) return notFound();
 
   return (
