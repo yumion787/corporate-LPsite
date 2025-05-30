@@ -4,7 +4,8 @@ import { services } from "@/data/services";
 import type { Service } from "@/data/services";
 import Link from "next/link";
 
-export default async function ServiceDetailPage({ params }: { params: { serviceId: string } }) {
+export default async function ServiceDetailPage({ params }) {
+
   const service: Service | undefined = services.find(s => s.id === params.serviceId);
   if (!service) return notFound();
 
