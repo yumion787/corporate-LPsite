@@ -1,10 +1,11 @@
 # ポートフォリオ
 
 ### デモサイト
-https://corporate-l-psite.vercel.app/
+https://corporate-l-psite.vercel.app/  
+  
 ※お問い合わせページ：デモサイトのためメール送信はできません  
 ※デモサイトのため、SNS（X・Instagram）アカウントは存在しません  
-
+  
 ![portfolio](https://github.com/user-attachments/assets/8d521a22-67f1-473f-a302-0e38312e6e26)
 
 ## 想定企業名
